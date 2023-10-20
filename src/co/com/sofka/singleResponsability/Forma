@@ -1,0 +1,14 @@
+package co.com.sofka.singleResponsability;
+
+public abstract class Forma {
+
+    public int altura;
+    public int ancho;
+
+    public Forma(int altura, int ancho) {
+        this.altura = altura;
+        this.ancho = ancho;
+    }
+
+    public abstract int calcularArea();
+}
